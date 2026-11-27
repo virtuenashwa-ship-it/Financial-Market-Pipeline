@@ -7,7 +7,7 @@ DB_PATH = DATA_DIR / "market_telemetry.db"
 
 RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-# CoinGecko Public API (No API key required)
+# CoinGecko Public API
 API_URL = "https://coingecko.com"
 ASSETS = ["bitcoin", "ethereum", "solana", "ripple", "cardano"]
 CURRENCIES = ["usd", "zar"]
